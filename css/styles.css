@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Josefin+Sans:300,400|Montserrat|Poppins:300|Ubuntu&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -112,7 +113,7 @@ form{
 .content{
     background: url(../img/bg-pattern-desktop.svg) no-repeat;
     width:100vw; 
-    height: 100vh;
+    height: 120vh;
     position: relative;
     top: 0px;
     left: 0px;
