@@ -1,0 +1,435 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(135deg,hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+}
+
+.main{
+    display: flex;
+}
+
+.content{
+    background: url(../img/bg-pattern-desktop.svg) no-repeat;
+    width:60vw; 
+    height: 100vh;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.image{
+    background: url(../img/hero-desktop.jpg) no-repeat;
+    background-size: cover;
+    width:40vw; 
+    height: 100vh;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    top: 40px;
+    left: 140px;
+}
+
+.content-text{
+    margin: auto;
+    width: 65%;
+}
+
+.selected{
+    font-family: "Josefin Sans";
+    font-size: 50px;
+    font-weight: 400;
+    color: hsl(0, 36%, 70%);
+}
+
+.head{
+    font-family: "Josefin Sans";
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    top: 200px;
+    color: hsl(0, 6%, 24%);
+    letter-spacing: 7px;
+}
+
+.parag{
+    position: relative;
+    top: 220px;
+    font-family: "Josefin Sans";
+    font-weight: bold;
+    color: hsl(0, 36%, 70%);
+    width: 75%;
+    text-align: left;
+}
+
+form{
+    position: relative;
+    top: 270px;
+}
+
+#useremail{
+    outline: none;
+    border: 1px solid hsl(0, 0%, 65%);
+    border-radius: 200px;
+    padding: 20px 90px 20px 50px;
+    width: 90%;
+}
+
+#btn{
+    outline: none;
+    border: none;
+    border-radius: 200px;
+    padding: 18px 50px;
+    box-shadow: hsl(0, 1%, 77%) 0px 8px 14px;
+    margin: auto;
+    background-image: linear-gradient(135deg,hsl(0, 80%, 86%),hsl(0, 74%, 74%));
+    position: absolute;
+    left: 400px;
+}
+
+#btn:hover{
+    background: hsl(0, 67%, 82%);
+    cursor: pointer;
+
+}
+
+
+
+
+@media screen and (max-width: 375px){
+.main{
+    display: block;
+}
+
+.content{
+    background: url(../img/bg-pattern-desktop.svg) no-repeat;
+    width:100vw; 
+    height: 100vh;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.image{
+    background: url(../img/hero-mobile.jpg) no-repeat;
+    width:100vw; 
+    height: 100vh;
+    position: absolute;
+    top: 110px;
+}
+
+.logo{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.content-text{
+    margin: auto;
+    width: 100%;
+}
+
+.selected{
+    font-family: "Josefin Sans";
+    font-size: 50px;
+    font-weight: 400;
+    color: hsl(0, 36%, 70%);
+}
+
+.head{
+    font-family: "Josefin Sans";
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    top: 410px;
+    color: hsl(0, 6%, 24%);
+    letter-spacing: 7px;
+    text-align: center;
+}
+
+.parag{
+    position: relative;
+    top: 440px;
+    font-family: "Josefin Sans";
+    font-weight: bold;
+    color: hsl(0, 36%, 70%);
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+form{
+    position: relative;
+    top: 470px;
+    width: 100vw;
+    margin: auto;
+}
+
+#useremail{
+    outline: none;
+    border: 1px solid hsl(0, 0%, 65%);
+    border-radius: 200px;
+    padding: 10px 90px 10px 50px;
+    width: 80%;
+    margin: auto 20px;
+}
+
+#btn{
+    outline: none;
+    border: none;
+    border-radius: 200px;
+    padding: 10.2px 30px;
+    box-shadow: hsl(0, 1%, 77%) 0px 8px 14px;
+    margin: auto;
+    background-image: linear-gradient(135deg,hsl(0, 80%, 86%),hsl(0, 74%, 74%));
+    position: absolute;
+    left: 250px;
+    top: -3px;
+}
+
+#btn:hover{
+    background: hsl(0, 67%, 82%);
+    cursor: pointer;
+
+}
+
+}
+
+
+@media screen and (min-width: 1440px){
+.main{
+    display: flex;
+}
+
+.content{
+    background: url(../img/bg-pattern-desktop.svg) no-repeat;
+    width:60vw; 
+    height: 100vh;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.image{
+    background: url(../img/hero-desktop.jpg) no-repeat;
+    background-size: cover;
+    width:40vw; 
+    height: 100vh;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    top: 40px;
+    left: 140px;
+}
+
+.content-text{
+    margin: auto;
+    width: 65%;
+}
+
+.selected{
+    font-family: "Josefin Sans";
+    font-size: 50px;
+    font-weight: 400;
+    color: hsl(0, 36%, 70%);
+}
+
+.head{
+    font-family: "Josefin Sans";
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    top: 200px;
+    color: hsl(0, 6%, 24%);
+    letter-spacing: 7px;
+}
+
+.parag{
+    position: relative;
+    top: 220px;
+    font-family: "Josefin Sans";
+    font-weight: bold;
+    color: hsl(0, 36%, 70%);
+    width: 75%;
+    text-align: left;
+}
+
+form{
+    position: relative;
+    top: 270px;
+}
+
+#useremail{
+    outline: none;
+    border: 1px solid hsl(0, 0%, 65%);
+    border-radius: 200px;
+    padding: 20px 90px 20px 50px;
+    width: 90%;
+}
+
+#btn{
+    outline: none;
+    border: none;
+    border-radius: 200px;
+    padding: 18px 50px;
+    box-shadow: hsl(0, 1%, 77%) 0px 8px 14px;
+    margin: auto;
+    background-image: linear-gradient(135deg,hsl(0, 80%, 86%),hsl(0, 74%, 74%));
+    position: absolute;
+    left: 400px;
+}
+
+#btn:hover{
+    background: hsl(0, 67%, 82%);
+    cursor: pointer;
+
+}
+}
+
+
+
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<< MEDIA  QUERIES >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* Smartphones (portrait and landscape) ---------- */
+@media screen and (min-width: 320px) and (max-width: 480px){}
+
+/* Smartphones (portrait) ----------
+@media screen and (max-width: 320px){
+
+    .main{
+        display: block;
+    }
+
+    .logo{
+        position: absolute;
+        top: 40px;
+        left: 40px;
+    }
+    
+    .content{
+        background-image: linear-gradient(135deg,hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+        width:100vw; 
+        height: 99vh;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        z-index: 0;
+    }
+    
+    .image{
+        background: url(../img/hero-mobile.jpg) no-repeat;
+        background-size: cover;
+        width:100vw; 
+        height: 100vh;
+        position: absolute;
+        top: 100px;
+        left: 0;
+    }
+    
+    .content-text{
+        margin: auto;
+        width: 100%;
+    }
+    
+    .selected{
+        font-family: "Josefin Sans";
+        font-size: 50px;
+        font-weight: 400;
+        color: hsl(0, 36%, 70%);
+    }
+    
+    .head{
+        font-family: "Josefin Sans";
+        font-size: 50px;
+        font-weight: bold;
+        position: relative;
+        top: 400px;
+        color: hsl(0, 6%, 24%);
+        letter-spacing: 7px;
+        text-align: center;
+    }
+    
+    .parag{
+        position: relative;
+        top: 420px;
+        font-family: "Josefin Sans";
+        font-weight: bold;
+        color: hsl(0, 36%, 70%);
+        width: 75%;
+        text-align: center;
+        margin: auto;
+    }
+    
+    form{
+        position: relative;
+        top: 470px;
+        margin: auto;
+        width: 80%;
+        /* padding: 0 30px; ///////*Commented
+    }
+    
+    #useremail{
+        outline: none;
+        border: 1px solid hsl(0, 0%, 65%);
+        border-radius: 200px;
+        padding: 10px 80px 10px 11px;
+        width: 100%;
+        position: absolute;
+        top: 1px;
+        margin: auto;
+    }
+    
+    #btn{
+        outline: none;
+        border: none;
+        border-radius: 200px;
+        padding: 9.4px 30px;
+        box-shadow: hsl(0, 1%, 72%) 0px 1px 4px;
+        margin: auto;
+        background-image: linear-gradient(135deg,hsl(0, 80%, 86%),hsl(0, 74%, 74%));
+        position: absolute;
+        left: 160px;
+    }
+    
+    #btn:hover{
+        background: hsl(0, 67%, 82%);
+        cursor: pointer;
+    
+    }
+    
+
+}*/
+
+/* Smartphones (landscape) ---------- */
+@media screen and (min-width: 321px){}
+
+/* Tablets, iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 768px) and (max-width: 1024px){}
+
+/* Tablets, iPads (portrait) ---------- */
+@media screen and (min-width: 768px){}
+
+/* Tablets, iPads (landscape) ---------- */
+@media screen and (min-width: 1024px){}
+
+/* Desktops and laptops ---------- */
+@media screen and (min-width: 1224px){}
+
+/*-----------Large screens ---------- */
+@media screen and (min-width: 1824px){}
+
+
+
+
+
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<< MEDIA  QUERIES >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
